@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2em;
+
+}
+html{
+    color:rgb(51, 47, 47);
+    line-height: 1.5;
+   
+}
+h1{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-top: 2px solid rgb(189, 178, 177);
+    border-bottom: 2px solid rgb(189, 178, 177);
+    padding: 0.5em 0;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+    
+}
+h3{
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: salmon;
+}
+
+p{
+    line-height: 1.5;
+}
+section + section{
+    margin-top: 2em;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#img{
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+}
+.profile{
+    text-align: center;
+}
+.profile p{
+    color: rgb(161, 152, 151);
+    margin-bottom: 1.25em;
+    font-size: 1.25em;
+}
+.links ul{
+    margin-top: -2em;
+}
+.links li{
+    text-align: right;
+    text-transform: uppercase;
+    padding: 0.5em;
+    border-bottom: 2px solid rgb(189, 178, 177);
+    color:rgb(161, 152, 151); ;
+}
+li + li{
+    margin-top: 0.75em;
+}
+ul{
+    list-style: none;
+}
+.skills > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+
+}
+.event{
+    display: grid;
+    grid-template-columns: 5ch 1fr;   
+}
+.content{
+    border-left: 1px solid #888;
+    padding-left: 1em;
+    margin-left: 1em;
+}
+.resume-page{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 3em; 
+}
+
+
